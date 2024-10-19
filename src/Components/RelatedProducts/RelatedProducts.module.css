@@ -1,0 +1,30 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.h1{
+    color: #1e1e1e;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+.products{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    grid-gap: 30px;
+    padding: 50px 0px;
+}
+.images{
+    border-radius: 10px;
+}
+.name{
+    padding-top: 10px;
+    font-size: 16px;
+}
+.price{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}

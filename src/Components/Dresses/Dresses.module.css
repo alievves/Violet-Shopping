@@ -1,0 +1,26 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.childLeft{
+    padding-top: 80px;
+}
+.childRight{
+    padding-top: 30px;
+}
+.notes{
+    display: flex;
+}
+h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+.p1, .p2{
+    font-size: 12px;
+    color: #838383;
+}
+.p3{
+    font-size: 12px;
+}

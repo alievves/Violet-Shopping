@@ -1,0 +1,50 @@
+.h1{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 60px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style-type: none;
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.btn{
+    background-color: white;
+    color: rgb(129, 89, 89);
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+    font-weight: 600;
+}
+.active{
+    color: black;
+    font-weight: 700;
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid brown;
+}
+.products{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    grid-gap: 30px;
+    margin-top: 70px;
+}
+.img{
+    border-radius: 10px;
+}
+.name{
+    padding-top: 10px;
+    font-size: 16px;
+}
+.price{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}

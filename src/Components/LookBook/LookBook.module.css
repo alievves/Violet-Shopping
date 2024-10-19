@@ -1,0 +1,39 @@
+.lookBook{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.leftSide{
+    padding-top: 100px;
+}
+.h2{
+    font-size: 60px;
+}
+.text{
+    text-align: left;
+    padding-top: 20px;
+}
+.link{
+    margin-top: 60px;
+}
+.seeMore{
+    border: 2px solid #B0BCC2;
+    padding: 16px 40px;
+    border-radius: 50px;
+    background-color: #B0BCC2;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+}
+.rightSide{
+    position: relative;
+}
+.fashion{
+    position: absolute;
+    top: 78%;
+    left: 20%;
+    font-size: 135px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}

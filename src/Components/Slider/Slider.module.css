@@ -1,0 +1,45 @@
+.slider{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.leftArrow{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, 50%);
+    left: 40px;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+    border: 2px solid none;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #B0BCC2;
+}
+.rightArrow{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, 50%);
+    right: 40px;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+    border: 2px solid none;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #B0BCC2;
+}
+.year{
+    position: absolute;
+    top: 28%;
+    right: 43%;
+    font-size: 110px;
+    color: #fff;
+}
+.text{
+    position: absolute;
+    top: 40%;
+    right: 34%;
+    font-size: 110px;
+    color: #fff;
+}

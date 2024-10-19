@@ -1,0 +1,66 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.h3{
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: 2px solid #D0D7DB;
+    padding: 30px 0px;
+}
+.txtForm{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    padding: 30px 0px;
+    text-align: left;
+}
+.txt{
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 10px;
+}
+.input{
+    border: 0;
+    border-bottom: 2px solid #e7ebed;
+    outline: none;
+    width: 30%; 
+}
+.inputs{
+    border: 0;
+    border-bottom: 2px solid #e7ebed;
+    outline: none;
+    width: 50%;
+}
+.btn{
+    color: #1e1e1e;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    padding: 16px;
+    border: 2px solid #1e1e1e;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 50px 0px;
+}
+.btn:hover{
+    background-color: rgb(187, 187, 57);
+}
+.credit{
+    padding-top: 30px;
+}
+.paypal, .masterCard{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    padding-top: 10px;
+}
+.payment{
+    color: #838383;
+    font-size: 14px;
+    font-weight: 500;
+}

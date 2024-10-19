@@ -1,0 +1,37 @@
+.form{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.input{
+    border: 0;
+    border-bottom: 2px solid #e7ebed;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 20px 0px;
+}
+.inputs{
+    border: 0;
+    border-bottom: 2px solid #e7ebed;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 40px 0px 80px 0px;
+}
+.btn{
+    color: #1e1e1e;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 16px 50px;
+    border: 2px solid #1e1e1e;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.btn:hover{
+    background-color: rgb(175, 175, 64);
+}

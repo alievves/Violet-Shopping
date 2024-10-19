@@ -1,0 +1,117 @@
+.top{
+    background-color: rgb(38, 38, 38);
+}
+.form{
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 90px;
+    position: relative;
+}
+.input{
+    width: 90%;
+    padding: 15px 0px 15px 40px;
+    color: rgb(83, 83, 83);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    border: 2px solid rgb(69, 71, 71);
+    border-radius: 50px;
+    background: transparent;
+}
+.input:focus{
+    outline: none;
+}
+.btn{
+    padding: 15px 40px 15px 40px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    right: 0px;
+    background: rgb(176, 188, 194);
+    border: 2px solid rgb(176, 188, 194);
+    border-radius: 50px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    padding: 90px 0px 90px 0px;
+}
+.menuDisc{
+    font-size: 26px;
+    color: white;
+    font-weight: 400;
+}
+.subMenu{
+    padding-top: 50px;
+}
+.subMenuDisc{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    opacity: 0.5;
+    list-style-type: none;
+}
+.bottom{
+    background: rgb(34, 33, 33);
+}
+.iconsParent{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+}
+.iconsChild{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.icons{
+    color: #d7d7d7;
+}
+.iconsText{
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #9f9fa0;
+}
+.iconsChild:hover > .iconsText{
+    color: #fff;
+    transition: all 0.5s;
+}
+.iconsChild:hover > .instagram{
+    color: #833ab4;
+    transition: all 0.5s;
+}
+.iconsChild:hover > .pinterest{
+    color: red;
+    transition: all 0.5s;
+}
+.iconsChild:hover > .facebook{
+    color: #3b5998;
+    transition: all 0.5s;
+}
+.iconsChild:hover > .x{
+    color: #130707;
+    transition: all 0.5s;
+}
+.iconsChild:hover > .youtube{
+    color: red;
+    transition: all 0.5s;
+}
+.discText{
+    text-align: center;
+    padding-bottom: 50px;
+    color: #7b7b7b;
+    font-size: 18px;
+}
+.alievves{
+    color: #ae52ca;
+}
+.alievves:hover{
+    color: #fff;
+    transition: all 0.5s;
+}

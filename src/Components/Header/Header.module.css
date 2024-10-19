@@ -1,0 +1,107 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 60px 20px 60px;
+}
+.child1{
+    flex-basis: 18%;
+    cursor: pointer;
+}
+.child2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 25%;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+}
+.home, .shop, .about, .blog, .contact{
+    cursor: pointer;
+    z-index: 1;
+}
+.shop > ul{
+    display: none;
+    list-style-type: none;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.5);
+    background-color: #f1f4f7;
+    padding: 20px 50px 20px 10px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.shop > ul > li{
+    padding: 5px;
+}
+.shop:hover > ul{
+    display: block;
+}
+.home:hover{
+    border-bottom: 2px solid brown;
+}
+.shop:hover{
+    border-bottom: 2px solid brown;
+}
+.about:hover{
+    border-bottom: 2px solid brown;
+}
+.blog:hover{
+    border-bottom: 2px solid brown;
+}
+.contact:hover{
+    border-bottom: 2px solid brown;
+}
+.child3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 26%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.register{
+    cursor: pointer;
+}
+.input{
+    border-radius: 20px;
+    padding: 5px;
+    border: solid 2px #7aa2b6;
+    position: relative;
+}
+.iconsHeader{
+    position: absolute;
+    top: 5.7%;
+    right: 6%;
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    background-color: #b0bcc2;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+.childBottom1{
+    display: flex;
+    align-items: center;
+}
+.childBottom2{
+    display: flex;
+    align-items: self-end;
+    padding-bottom: 3px;
+}
+.childBottom3{
+    display: flex;
+    align-items: center;
+}
+.iconsBottom{
+    padding-right: 10px;
+}
